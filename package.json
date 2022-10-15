@@ -6,6 +6,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@sanity/cli": "^2.34.2",
     "@thirdweb-dev/react": "^3.2.5",
     "@thirdweb-dev/sdk": "^3.2.5",
     "ethers": "^5.7.1",
