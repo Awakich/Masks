@@ -1,5 +1,6 @@
 import { useDisconnect, useAddress, useMetamask } from "@thirdweb-dev/react";
 import { NextPage } from "next";
+import Link from "next/link";
 
 const NftDropPage: NextPage = () => {
 
@@ -59,7 +60,9 @@ const NftDropPage: NextPage = () => {
 
                 {/* Button */}
 
-                <button className="mt-10 h-16 w-full bg-black text-white rounded-full font-semibold">Mint NFT (0.01 ETH)</button>
+                <button className="mt-10 h-16 w-full bg-black text-white rounded-full font-semibold">
+                    <Link href="/nft/cyber/claimed">Mint NFT (0.01 ETH)</Link>
+                </button>
             </div>
 
         </div>
